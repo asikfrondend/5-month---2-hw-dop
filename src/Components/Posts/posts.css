@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh; 
+    background-color: gray;
+    overflow-y: auto; 
+    
+}  
+
+.block-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.block {
+    width: 70%;
+    background-color: rgb(166, 160, 160);
+    border: 1px solid rgb(57, 192, 197);
+    margin-left: 150px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.details {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 90%;
+    position: relative;
+    top: -80px;
+    display: inline-block;
+    z-index: 1; 
+    margin-top: 30px;
+}
